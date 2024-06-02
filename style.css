@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/jungle\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.main .navbar{
+    background-color: rgb(18, 63, 9);
+    display: flex;
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+}
+.navbar img{
+    width: 20px;
+}
+
+
+.links {
+    display: flex;
+    margin: 27px 3%;
+    gap: 2em;
+    font-size: 24px;
+    text-decoration: none;
+}
+.navbar nav ul li a{
+    color: white !important;
+}
+.navbar-nav .nav-link ul li a {
+    color: white; /* Set the color to white */
+}
+
+
+
+
+.links a{
+     /* list-style: none !important; */
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+}
+.main img {
+    width: 75px;
+    height: 60px;
+}
+
+
+ .about{
+   text-align: center;
+   color: white;
+    
+}
+.para{
+    padding: 151px 18px;
+}
+
+.para p{
+    padding: 2px 3px;
+}
+
+
+.para h1 {
+    padding: 17px 1px;
+    font-size: 4em;
+}
